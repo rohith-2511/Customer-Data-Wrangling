@@ -1,0 +1,5 @@
+CustomerID,Name,DOB,City,Email,RegistrationDate,Customer_Age
+101,Rohit,2004-06-01,vijayawada,rohit@gmail.com,2025-01-05,22
+102,Sai,2000-01-01,hyderabad,sai@gmail.com,2025-05-02,26
+103,Priya,2003-05-12,hyderabad,priya@gmail.com,2025-05-03,23
+104,Ramesh,2001-02-10,hyderabad,ramesh@gmail.com,2025-05-04,25

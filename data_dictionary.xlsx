@@ -1,0 +1,10 @@
+| Column Name      | Data Type | Description        | Business Relevance            |
+| ---------------- | --------- | ------------------ | ----------------------------- |
+| CustomerID       | Integer   | Unique customer ID | Customer identification       |
+| Name             | Text      | Customer name      | Customer tracking             |
+| DOB              | Date      | Date of birth      | Age calculation               |
+| City             | Text      | Customer city      | Location analysis             |
+| Email            | Text      | Customer email     | Communication                 |
+| RegistrationDate | Date      | Registration date  | Customer acquisition analysis |
+| Customer_Age     | Integer   | Customer age       | Customer segmentation         |
+
