@@ -1,39 +1,27 @@
 DATA QUALITY ASSESSMENT REPORT
-
 Dataset: Customer Data
-
 1. Missing Values
-
 * DOB column contained 1 missing value.
 
 2. Duplicate Records
-
 * 1 duplicate record was identified and removed.
 
 3. Inconsistent Formatting
-
 * City names appeared in different formats:
-
-  * Hyderabad
-  * HYDERABAD
-  * hyderabad
-
+* Hyderabad 
+* HYDERABAD
+* hyderabad
 * Standardized all city names to lowercase.
 
 4. Date Format Issues
-
 * RegistrationDate column contained multiple formats:
-
-  * 01-05-2025
-  * 2025/05/02
-  * May 03 2025
-
+* 01-05-2025
+* 2025/05/02
+* May 03 2025
 * Converted all dates into a standard datetime format.
 
 5. Feature Engineering
-
 * Created a new column named Customer_Age from the DOB column.
 
 6. Output
-
 * Generated a cleaned and analysis-ready dataset named customer_cleaned.csv.
